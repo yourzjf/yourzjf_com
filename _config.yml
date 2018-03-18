@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jeffrey Blog Home
+title: Jeffrey blog's
 subtitle:
 description:
 author: Jeffrey J
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -78,3 +78,9 @@ theme: pure
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# SEO
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml

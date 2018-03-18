@@ -34,14 +34,14 @@ site:
   title: Hexo # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!！！！</p> # 站点公告
-  copyright: false # 底部版权信息
+  copyright: true # 底部版权信息
 
 # config
 config:
   skin: theme-black # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
-  menu_highlight: false # 是否开启当前菜单高亮显示
+  menu_highlight: true # 是否开启当前菜单高亮显示
   thumbnail: false # enable posts thumbnail, options: true, false
   excerpt_link: Read More
 
@@ -84,11 +84,11 @@ donate:
   enable: true
   weipay:
     image: images/donate/weipay.jpg
-    qrcode: images/donate/weipayimg.png
+    qrcode: images/donate/weipayimg1.png
     title: 微信支付
   alipay: 
     image: images/donate/alipay.jpg
-    qrcode: images/donate/alipayimg.png 
+    qrcode: images/donate/alipayimg1.png 
     title: 支付宝
 
 # Share
@@ -146,7 +146,7 @@ pv:
         
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -168,10 +168,10 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
+  author: 猴子程序员
+  author_title: Java Developer
   author_description: 个人简介。
-  location: Shenzhen, China
+  location: HangZhou, China
   follow: https://github.com/yourzjf
   # Social Links
   social:
@@ -182,7 +182,7 @@ profile:
       # facebook: /
       # dribbble: /
       behance: https://www.behance.net/cofess
-      rss: atom.xml
+      # rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
