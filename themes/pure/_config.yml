@@ -1,13 +1,13 @@
 # menu
 menu:
-  Home: .
-  Archives: archives  # 归档
-  Categories: categories  # 分类
-  Tags: tags  # 标签
-  Repository: githubrepository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
-  About: about  # 关于
+  主页: .
+  归档: archives  # 归档
+  分类: categories  # 分类
+  标签: tags  # 标签
+  仓库: githubrepository  # github repositories
+  书单: books  # 豆瓣书单
+  链接: links  # 友链
+  关于: about  # 关于
 
 # Enable/Disable menu icons
 menu_icons:
@@ -22,7 +22,7 @@ menu_icons:
   about: icon-cup-fill
 
 # rss
-rss: /atom.xml
+# rss: /atom.xml
 
 # Site
 site:
@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>欢迎交流与分享经验!！！！</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
@@ -96,7 +96,7 @@ donate:
 share:
   enable: true  # 是否启用分享
   sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
-  mobile_sites: weibo,qq  # 移动端显示的分享图标
+  mobile_sites: weibo,qq,wechat,facebook,twitter  # 移动端显示的分享图标
 
 # Github
 github: 
@@ -106,17 +106,17 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: disqus  # 启用哪种评论系统 youyan disqus livere gitment
+  type: gitment  # 启用哪种评论系统 youyan disqus livere gitment
   disqus:  # enter disqus shortname here
   youyan: 
     uid: 1783844 # enter youyan uid 
   livere:
     uid: # enter youyan uid 
   gitment:
-    githubID: 
-    repo: 
-    ClientID: 
-    ClientSecret: 
+    githubID: yourzjf
+    repo: yourzjf.github.io
+    ClientID: 846977bc6d0c65a94ac5
+    ClientSecret: ba23bc62fa5f9a103545261c65d66b50aac614f0
     lazy: false
 
 # douban 豆瓣书单
