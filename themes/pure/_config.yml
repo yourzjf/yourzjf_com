@@ -1,13 +1,13 @@
 # menu
 menu:
-  主页: .
-  归档: archives  # 归档
-  分类: categories  # 分类
-  标签: tags  # 标签
-  仓库: githubrepository  # github repositories
-  书单: books  # 豆瓣书单
-  链接: links  # 友链
-  关于: about  # 关于
+  Home: .
+  Archives: archives  # 归档
+  Categories: categories  # 分类
+  Tags: tags  # 标签
+  Repository: githubrepository  # github repositories
+  Books: books  # 豆瓣书单
+  Links: links  # 友链
+  About: about  # 关于
 
 # Enable/Disable menu icons
 menu_icons:
@@ -114,7 +114,7 @@ comment:
     uid: # enter youyan uid 
   gitment:
     githubID: yourzjf
-    repo: yourzjf.github.io
+    repo: yourzjf_com
     ClientID: 846977bc6d0c65a94ac5
     ClientSecret: ba23bc62fa5f9a103545261c65d66b50aac614f0
     lazy: false
