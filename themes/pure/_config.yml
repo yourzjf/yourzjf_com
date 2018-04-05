@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: Jeffrey's Blog # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
@@ -170,7 +170,7 @@ profile:
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 猴子程序员
   author_title: Java Developer
-  author_description: 个人简介。
+  author_description: 人生自有诗意，心底涓流不息。
   location: HangZhou, ZheJiang, China
   follow: https://github.com/yourzjf
   # Social Links
