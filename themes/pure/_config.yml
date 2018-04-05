@@ -86,10 +86,10 @@ donate:
 #    image: images/donate/weipay.jpg
 #    qrcode: images/donate/weipayimg.png
 #    title: 微信支付
-  alipay: 
-    image: images/donate/alipay1.jpg
-    qrcode: images/donate/alipayimg1.png 
-    title: 支付宝
+#  alipay: 
+#    image: images/donate/alipay1.jpg
+#    qrcode: images/donate/alipayimg1.png 
+#    title: 支付宝
 
 # Share
 # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
