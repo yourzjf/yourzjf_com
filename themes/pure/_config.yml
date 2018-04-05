@@ -34,7 +34,7 @@ site:
   title: Jeffrey's Blog # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
-  copyright: false # 底部版权信息
+  copyright: true # 底部版权信息
 
 # config
 config:
@@ -82,10 +82,10 @@ search:
 # Donate
 donate:
   enable: true
-#  weipay:
-#    image: images/donate/weipay.jpg
-#    qrcode: images/donate/weipayimg.png
-#    title: 微信支付
+  weipay:
+    image: images/donate/weipay.jpg
+    qrcode: images/donate/weipayimg1.png
+    title: 微信支付
   alipay: 
     image: images/donate/alipay.jpg
     qrcode: images/donate/alipayimg1.png 
